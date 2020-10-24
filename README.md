@@ -8,7 +8,7 @@ step 1. Find out all the prime implicants of the boolean function (Quine-McClusk
 
 step 2. Determine all minimum sum-of-products solutions from prime implicant chart (Petrick's Method).
 
-# Note on my Petrick's Method
+# Note
 
 There are three rules for simplifying Sum of Product (SOP):
 
@@ -20,7 +20,7 @@ There are three rules for simplifying Sum of Product (SOP):
 
 For X + X = X, I checked this rule in Petrick_Method::Expension, and if I find that it has already appeared, I won't add it to the SOP.
 
-For XX = X, I used the characteristics of the container set and use vector< set<string> > to store the SOP, which can be simply simplified.
+For XX = X, I used the characteristics of the container set and use vector< set<string> > to store the SOP, then this rule can be simply simplified.
 
 For X + XY = X, I adopted a non-processing principle. The purpose of this code is to find the minimum cover of a boolean function by using its prime implicants, not the most condensed expression of a boolean function, so I did not do anything with this rule.
 

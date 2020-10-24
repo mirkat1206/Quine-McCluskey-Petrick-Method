@@ -27,16 +27,16 @@ int main(int argc, char *argv[])
 	Quine_McCluskey QM;
 	Init( fin , QM );
 	QM.Solve();
-//	QM.Print_Prime_Impli();
+	QM.Print_Prime_Impli();
 
 	cout<<"\n***** Petrick's Method *****"<< endl;
 	Petrick_Method PM( QM.Get_Prime_Impli() , QM.Get_On_Set() );
 	PM.Solve();
-//	PM.Print_POS();
+	PM.Print_POS();
 //	PM.Print_SOP();
 
-//	cout<<"\n***** All possible fewest-terms results *****"<< endl;
-//	PM.Print_FewestTerm_P();
+	cout<<"\n***** All possible fewest-terms results *****"<< endl;
+	PM.Print_FewestTerm_P();
 	
 	cout<<"\n***** Final Answer *****"<< endl;
 	Output( fout , QM , PM );

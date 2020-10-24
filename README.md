@@ -26,15 +26,9 @@ For X + XY = X, I adopted a non-processing principle. The purpose of this code i
 
 According to the above three rules and corresponding processing guidelines, in the final SOP formulas obtained, the product with the least number of clauses is the minimum cover.
 
-# Input Format
-
-<script src="https://gist.github.com/mirkat1206/b64f23fa59209ccbabc8522c1cca4458.js"></script>
-
-# Output Format
-
-<script src="https://gist.github.com/mirkat1206/ebb2a424fa46c1c2d24a485118d03306.js"></script>
-
 ---
+
+詳細解說請見[我的網站](https://medium.com/mirkat-x-blog/implement-quine-mccluskey-algorithm-and-petricks-method-in-c-40168163474)
 
 # Method
 
@@ -58,11 +52,3 @@ According to the above three rules and corresponding processing guidelines, in t
 對於 X + XY = X，我則採取不處理的原則。此份程式碼的目的是尋找布林函數使用 prime implicant 來表達的 minimum cover，並非布林函數的最精簡表示式，因此我並沒有對這個規則做任何處理。
 
 依照上述三個規則以及對應的處理方針，在最終獲得的 SOP 式子中，擁有 clauses 數量最少的 product 即是 minimum cover。
-
-# Input Format
-
-<script src="https://gist.github.com/mirkat1206/b64f23fa59209ccbabc8522c1cca4458.js"></script>
-
-# Output Format
-
-<script src="https://gist.github.com/mirkat1206/ebb2a424fa46c1c2d24a485118d03306.js"></script>

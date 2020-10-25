@@ -18,11 +18,11 @@ There are three rules for simplifying Sum of Product (SOP):
 
 3. X + XY = X
 
-For X + X = X, I checked this rule in Petrick_Method::Expension, and if I find that it has already appeared, I won't add it to the SOP.
+For X + X = X, I checked this rule in Petrick_Method::Expension, and if it had already appeared, I wouldn't add it to the SOP.
 
-For XX = X, I used the characteristics of the container set and use vector< set<string> > to store the SOP, then this rule can be simply simplified.
+For XX = X, I used the characteristics of the container set and use vector< set<string> > to store SOP, then this rule could be simply simplified.
 
-For X + XY = X, I adopted a non-processing principle. The purpose of this code is to find the minimum cover of a boolean function by using its prime implicants, not the most condensed expression of a boolean function, so I did not do anything with this rule.
+For X + XY = X, I adopted a non-processing principle. The purpose of this code was to find the minimum cover of a boolean function by using its prime implicants, not the most condensed expression of a boolean function, so I did not do anything with this rule.
 
 According to the above three rules and corresponding processing guidelines, in the final SOP formulas obtained, the product with the least number of clauses is the minimum cover.
 

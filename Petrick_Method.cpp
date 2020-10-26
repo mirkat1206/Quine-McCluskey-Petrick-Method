@@ -1,5 +1,4 @@
 // Petrick_Method.cpp
-
 #include "Petrick_Method.h"
 #include <iostream>
 #include <algorithm>

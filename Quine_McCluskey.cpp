@@ -49,7 +49,7 @@ vector<string> Quine_McCluskey::Solve() {
 	return Prime_Impli ;
 }
 
-vector<string> & Quine_McCluskey::Get_On_Set() {	return s_On_Set ;		}
+vector<string> & Quine_McCluskey::Get_On_Set() {	return s_On_Set ;	}
 
 vector<string> & Quine_McCluskey::Get_Prime_Impli() {	return Prime_Impli ;	}
 

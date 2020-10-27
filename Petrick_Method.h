@@ -13,9 +13,9 @@ class Petrick_Method {
 	friend bool sort_by_SOP(const set<string>,const set<string>);
 private:
 	vector< vector<string> > POS;		// Product of Sum
-	vector< set<string> > SOP;			// Sum of Product, XX=X
-	set<string> s_SOP;					// string of SOP, X+X=X
-	vector<int> SOP_cost;				// cost of each term in SOP
+	vector< set<string> > SOP;		// Sum of Product, XX=X
+	set<string> s_SOP;			// string of SOP, X+X=X
+	vector<int> SOP_cost;			// cost of each term in SOP
 
 	bool is_On_in_Prime_Impli(string,string);
 	void POS2SOP();
@@ -27,7 +27,7 @@ public:
 	Petrick_Method(vector<string> &Prime_Impli, vector<string> &On_Set);
 	~Petrick_Method();
 
-	set<string> Solve();		// return prime implicants with minimun-cover
+	set<string> Solve();			// return prime implicants with minimun-cover
 
 	void Print_POS();
 	void Print_SOP();

@@ -1,4 +1,4 @@
-For details, read [my article](https://medium.com/mirkat-x-blog/implement-quine-mccluskey-algorithm-and-petricks-method-in-c-40168163474).
+For details, read [my article](https://medium.com/mirkat-x-blog/implement-quine-mccluskey-algorithm-and-petricks-method-in-c-40168163474)(It is in Chinese though. You guys can use google translate, I'd tried it, it isn't too bad.).
 
 # Method
 

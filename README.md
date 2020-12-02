@@ -36,7 +36,7 @@ For details, read [my medium article](https://medium.com/mirkat-x-blog/implement
 
 詳細解說請見[我在medium上的文章](https://medium.com/mirkat-x-blog/%E4%BD%BF%E7%94%A8c-%E5%AF%A6%E4%BD%9Cquine-mccluskey-algorithm%E8%88%87petricks-method-9775c9033620) (中文版)。
 
-*** 請注意 Patrick’s Method (POS2SOP部分) 的效率非常差，8個變數足以讓我的程式跑不完。或許你會想要重新編寫這一段的程式碼來提升效率 ***
+***請注意 Patrick’s Method (POS2SOP部分) 的效率非常差，8個變數足以讓我的程式跑不完。或許你會想要重新編寫這一段的程式碼來提升效率***
 
 # Method
 

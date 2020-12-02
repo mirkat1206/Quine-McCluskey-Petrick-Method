@@ -1,4 +1,6 @@
-For details, read [my article](https://medium.com/mirkat-x-blog/implement-quine-mccluskey-algorithm-and-petricks-method-in-c-40168163474)(It is in Chinese though. You guys can use google translate, I'd tried it, it wasn't too bad).
+For details, read [my medium article](https://medium.com/mirkat-x-blog/implement-quine-mccluskey-algorithm-and-petricks-method-in-c-40168163474) (English version).
+
+詳細解說請見[我在medium上的文章](https://medium.com/mirkat-x-blog/%E4%BD%BF%E7%94%A8c-%E5%AF%A6%E4%BD%9Cquine-mccluskey-algorithm%E8%88%87petricks-method-9775c9033620) (中文版)。
 
 ***Please note that the efficiency in Patrick's Method (POS2SOP part) is very poor, 8 variables are enough to stop my whole program(not realy "stop", but you get what I mean). You may wanna revise this part to improve the performance.***
 
@@ -30,9 +32,11 @@ According to the above three rules and corresponding processing guidelines, in t
 
 ---
 
-詳細解說請見[我的網站](https://medium.com/mirkat-x-blog/implement-quine-mccluskey-algorithm-and-petricks-method-in-c-40168163474)
+For details, read [my medium article](https://medium.com/mirkat-x-blog/implement-quine-mccluskey-algorithm-and-petricks-method-in-c-40168163474) (English version).
 
-***Please note that the efficiency in Patrick's Method (POS2SOP part) is very poor, 8 variables are enough to stop my whole program(not realy "stop", but you get what I mean). You may wanna revise this part to improve the performance.***
+詳細解說請見[我在medium上的文章](https://medium.com/mirkat-x-blog/%E4%BD%BF%E7%94%A8c-%E5%AF%A6%E4%BD%9Cquine-mccluskey-algorithm%E8%88%87petricks-method-9775c9033620) (中文版)。
+
+*** 請注意 Patrick’s Method (POS2SOP部分) 的效率非常差，8個變數足以讓我的程式跑不完。或許你會想要重新編寫這一段的程式碼來提升效率 ***
 
 # Method
 

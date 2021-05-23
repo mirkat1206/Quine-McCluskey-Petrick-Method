@@ -1,6 +1,6 @@
-For details, read [my medium article(Chinese version)](https://medium.com/mirkat-x-blog/implement-quine-mccluskey-algorithm-and-petricks-method-in-c-40168163474).
+For details, read [my article(Chinese version)](https://medium.com/mirkat-x-blog/implement-quine-mccluskey-algorithm-and-petricks-method-in-c-40168163474).
 
-詳細解說請見[我在medium上的文章(中文版)](https://medium.com/mirkat-x-blog/implement-quine-mccluskey-algorithm-and-petricks-method-in-c-40168163474) 。
+詳細解說請見[我在的文章(中文版)](https://medium.com/mirkat-x-blog/implement-quine-mccluskey-algorithm-and-petricks-method-in-c-40168163474) 。
 
 ***Please note that the efficiency in Patrick's Method (POS2SOP part) is very poor, 8 variables are enough to stop my whole program(not realy "stop", but you get what I mean). You may wanna revise this part to improve the performance.***
 
